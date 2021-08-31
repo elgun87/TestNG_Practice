@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite" parallel="tests" thread-count="2">
+
+
+    <listeners>
+        <listener class-name="Listeneres_Interface.Listeners_Example"/>
+    </listeners>
+
+
+    <test verbose="2" preserve-order="true" name="C:/Users/elgun/IdeaProjects/Selenium_Rahul_TestNg/src" parallel="classes">
+
+
+        <classes>
+            <class name="day_1.day_1">
+                <methods>
+                    <include name="Demo"/>
+                    <include name="SecondTest"/>
+                    <include name="test_1"/>
+                </methods>
+            </class>
+            <class name="day_1.day_2">
+                <methods>
+                    <include name="test_2"/>
+                </methods>
+            </class>
+            <class name="day_1.day_3">
+                <methods>
+                    <include name="WebLoginHomeLoan"/>
+                    <include name="MobileLodinHomeLoan"/>
+                    <include name="LoginApiHomeLoan"/>
+                </methods>
+            </class>
+            <class name="day_1.day_4">
+                <methods>
+                    <include name="foo_1"/>
+                    <include name="foo_2"/>
+                    <include name="foo_3"/>
+                    <include name="foo_4"/>
+                    <include name="test_5"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
