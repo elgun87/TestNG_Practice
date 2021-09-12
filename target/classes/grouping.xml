@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="Message" value="Hello I am Data coming from grouping.xml file"/>
+    <parameter name="Message2" value="Hello I am Second Data coming from grouping.xml file"/>
+    <test verbose="2" preserve-order="true" name="Regression">
+        <groups>
+            <run>
+<!--                <include name="Smoke"/>-->
+                <exclude name="Smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="day_1.Pull_Data_From_XML_File"/>
+            <class name="day_1.day_1"/>
+            <class name="day_1.day_2"/>
+            <class name="day_1.day_3"/>
+            <class name="day_1.day_4"/>
+        </classes>
+    </test>
+</suite>

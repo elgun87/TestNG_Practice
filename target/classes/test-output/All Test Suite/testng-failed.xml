@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="C:/Users/elgun/IdeaProjects/Selenium_Rahul_TestNg(failed)">
+    <classes>
+      <class name="day_1.TestNgDemo">
+        <methods>
+          <include name="test_1"/>
+        </methods>
+      </class> <!-- day_1.TestNgDemo -->
+    </classes>
+  </test> <!-- C:/Users/elgun/IdeaProjects/Selenium_Rahul_TestNg(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

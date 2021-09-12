@@ -1,0 +1,11 @@
+first enable from market place TestNg plug in.Then right click on project select create TestNg xml.
+Refresh the Inteliij.
+You can trigger all test cases from xml file.
+XML hiearachi
+Test Suit
+        Test Folder
+                   Test cases
+
+
+A suite can have multiple modules.
+U can run it with class name and with package name as well in xml
